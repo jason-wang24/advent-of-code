@@ -15,7 +15,7 @@ def part1(filePath):
                 score += 6
         return score
 
-print(part1("Day2-Input.txt"))
+print(part1("input/Day2-Input.txt"))
 
 def part2(filePath):
     shapeScore = {'A': 1, 'B': 2, 'C': 3}
@@ -34,4 +34,4 @@ def part2(filePath):
                 score += shapeScore[needToWin[opponent]] + 6
         return score
 
-print(part2("Day2-Input.txt"))
+print(part2("input/Day2-Input.txt"))

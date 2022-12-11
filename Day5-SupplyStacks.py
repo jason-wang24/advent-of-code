@@ -24,7 +24,7 @@ def part1(filePath):
 
     return topCrates
 
-print(part1("Day5-Input.txt"))
+print(part1("input/Day5-Input.txt"))
 
 def part2(filePath):
     with open(filePath) as input:
@@ -51,4 +51,4 @@ def part2(filePath):
 
     return topCrates
 
-print(part2("Day5-Input.txt"))
+print(part2("input/Day5-Input.txt"))

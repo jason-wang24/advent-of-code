@@ -17,7 +17,7 @@ def part1(filePath):
                     else:
                         total += ord(val) - ord('A') + 27
         return total
-print(part1("Day3-Input.txt"))
+print(part1("input/Day3-Input.txt"))
 
 def part2(filePath):
     with open(filePath) as input:
@@ -39,4 +39,4 @@ def part2(filePath):
                 total += ord(same) - ord('A') + 27
         return total
 
-print(part2("Day3-Input.txt"))
+print(part2("input/Day3-Input.txt"))

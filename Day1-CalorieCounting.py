@@ -10,7 +10,7 @@ def part1(filePath):
                 count += int(line)
         return maximum
 
-print(part1("Day1-Input.txt"))
+print(part1("input/Day1-Input.txt"))
 
 def part2(filePath):
     with open(filePath) as input:
@@ -29,4 +29,4 @@ def part2(filePath):
                 count += int(line)
         return sum(max3)
 
-print(part2("Day1-Input.txt"))
+print(part2("input/Day1-Input.txt"))

@@ -11,7 +11,7 @@ def part1(filePath):
                     return i + 1
                 window.pop(0)
 
-print(part1("Day6-Input.txt"))
+print(part1("input/Day6-Input.txt"))
 
 def part2(filePath):
     with open(filePath) as input:
@@ -26,4 +26,4 @@ def part2(filePath):
                     return i + 1
                 window.pop(0)
                 
-print(part2("Day6-Input.txt"))
+print(part2("input/Day6-Input.txt"))

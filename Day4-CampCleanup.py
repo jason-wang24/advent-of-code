@@ -12,7 +12,7 @@ def part1(filePath):
                 count += 1
         return count
 
-print(part1("Day4-Input.txt"))
+print(part1("input/Day4-Input.txt"))
 
 def part2(filePath):
     with open(filePath) as input:
@@ -28,4 +28,4 @@ def part2(filePath):
                 count += 1
         return count
 
-print(part2("Day4-Input.txt"))
+print(part2("input/Day4-Input.txt"))
