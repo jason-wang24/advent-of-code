@@ -19,6 +19,21 @@ def part1(filePath):
 print(part1("input/Day10-Input.txt"))
 
 def part2(filePath):
-    pass
+    with open(filePath) as input:
+        lines = input.readlines()
+        x = 1
+        o = []
+        for line in lines:
+            line = line.strip()
+            o.append(x)
+            if line[0] == 'a':
+                v = int(line.split()[1])
+                o.append(x)
+                x += v
 
-print(part2("input/Day10-Input.txt"))
+        for i in range(0, len(o), 40):
+            for j in range(40):
+                print(end = "#" if abs(o[i + j] - j) <= 1 else " ")
+            print()
+
+part2("input/Day10-Input.txt")
